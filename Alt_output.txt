@@ -1,0 +1,15 @@
+﻿=== APPROACH 1: STANDALONE CLASSES ===
+Student: Muhammad bilal, Age: 30, Major: Computer Science
+Student courses: ['Python Programming', 'Data Structures', 'Algorithms']
+Is honors student? True
+
+=== APPROACH 2: COMPOSITION ===
+Instructor: Sir. Ameen Alam , Age: 35
+Department: Mathematics
+Email: jane.smith@university.edu
+Courses taught: ['Calculus', 'Linear Algebra', 'Statistics']
+
+=== APPROACH 3: COMPOSITION WITH DELEGATION ===
+Composed object: CompositionBased(base=BaseWithDefaults(name='Test Name', description='Optional description'), required_id='12345', optional_value=0)
+Accessing delegated properties - Name: Test Name, Description: Optional description
+Validation error: required_id cannot be empty
